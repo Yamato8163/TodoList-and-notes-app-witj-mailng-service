@@ -1,0 +1,41 @@
+/* App.css */
+
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 20px;
+  }
+  
+  .app {
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+  .tabs {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+  }
+  
+  .tab {
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .tab.active {
+	background-color: #ccc;
+  }
+  
+  /* TodoApp.css and NotesApp.css are similar */
+  
+  .todo-app,
+  .notes-app {
+	display: none;
+  }
+  
+  .todo-app.active,
+  .notes-app.active {
+	display: block;
+  }
+  
